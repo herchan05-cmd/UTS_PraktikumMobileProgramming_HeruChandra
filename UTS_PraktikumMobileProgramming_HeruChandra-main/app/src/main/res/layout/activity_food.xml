@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Makanan Favorit Saya"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000080"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/dimsum"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:stretchColumns="2">
+
+            <TableRow android:layout_marginBottom="10dp">
+                <TextView android:text="Nama makanan" android:textSize="15sp"/>
+                <TextView android:text="  :  " android:textSize="15sp"/>
+                <TextView android:text="Dimsum" android:textSize="15sp"/>
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="10dp">
+                <TextView android:text="Asal Makanan" android:textSize="15sp"/>
+                <TextView android:text="  :  " android:textSize="15sp"/>
+                <TextView android:text="Tiongkok" android:textSize="15sp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="Harga makanan" android:textSize="15sp"/>
+                <TextView android:text="  :  " android:textSize="15sp"/>
+                <TextView android:text="Rp 25.000" android:textSize="15sp"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alasan suka :"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teksturnya tuh lembut, Rasa gurihnya dapet banget, apalagi kalau dimakan pas masih anget-angetnya langsung dari kukusan bambu. Selain itu, yang bikin saya makin suka adalah karena ibu saya kadang suka tiba-tiba beliin saya dimsum."
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keunikan :"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keunikan dimsum terletak pada porsi kecilnya yang artistik dan dikukus dalam keranjang bambu, sehingga menghasilkan aroma serta rasa yang ringan dan sehat."
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="35dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/fotoku"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="20dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HERU CHANDRA"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:layout_marginBottom="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NIM : 2410501094"
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnDestinasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:backgroundTint="#000080"
+            android:textColor="#FFFFFF"
+            android:text="TUJUAN DESTINASI WISATA IMPIAN" />
+
+    </LinearLayout>
+</ScrollView>

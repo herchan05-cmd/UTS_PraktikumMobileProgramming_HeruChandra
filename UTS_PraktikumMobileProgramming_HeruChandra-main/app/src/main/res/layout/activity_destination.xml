@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Destinasi Wisata Impian"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#000080"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/paris"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama tempat :"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menara Eiffel"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Letak :"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paris, Prancis"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keunikan :"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paris, yang dijuluki sebagai \&quot;Kota Cahaya\&quot; (City of Light), memiliki keunikan mendalam yang memadukan keindahan arsitektur klasik, seni tingkat tinggi, dan atmosfer romantis yang khas di setiap sudut kotanya. Kota ini menawarkan pesona ikonik melalui Menara Eiffel, Museum Louvre yang menyimpan sejarah seni, serta Sungai Seine yang menawan, di mana pengunjung dapat menikmati pemandangan kota dengan berjalan kaki atau river cruise."
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="40dp" />
+
+        <Button
+            android:id="@+id/btnKembali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:backgroundTint="#000080"
+            android:textColor="#FFFFFF"
+            android:text="KEMBALI KE MAKANAN FAVORIT" />
+
+    </LinearLayout>
+</ScrollView>
